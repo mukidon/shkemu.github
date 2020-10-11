@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mukesh</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="muki.jpg" type="image/icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Monoton&family=Passion+One:wght@900&family=Patua+One&family=Special+Elite&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Passion+One:wght@900&family=Patua+One&family=Special+Elite&display=swap" rel="stylesheet"> 
+</head>
+<body style="background:whitesmoke">
+<div class="container" style="">
+ <nav class="navbar navbar-expand-lg navbar navbar-light" style="background:#007bff00 !importan" >
+        <a href="#" class="navbar-brand"><span class="badge  badge-dark">M</span>ukesh</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse9">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse9">
+            <div class="navbar-nav">
+		<button class="btn disabled"></button>
+		<button class="btn disabled"></button><button class="btn disabled"></button><button class="btn disabled"></button><button class="btn disabled"></button>
+                <button class="btn" ><a href="index.html" class="nav-item nav-link active"><span class="badge badge-pill badge-dark">H</span>ome</a></button>
+                <button class="btn" ><a href="muki.html" class="nav-item nav-link"><span class="badge badge-pill badge-dark">A</span>bout</a></button>
+               <button class="btn" > <a href="contact.html" class="nav-item nav-link"><span class="badge badge-pill badge-dark">C</span>ontact</a></button>
+            </div>
+           
+        </div>
+    </nav>
+	  	
+  
+
+
+ <div class="row" id="demo" style="background-color:white;height:100%;">
+ <div class="row" style="height:100%;width:100%;background:#3e5773 !important;"><div class="col-sm-4" style="" ><img class="rounded-circle img-thumbnail mx-auto d-block" src="muki.jpg" style=";width:60%;height:60%;position: inherit;top: 14%;"></div>
+	 <div class="col-sm-6 " style="height:100%;" id="demo">
+	 	<center> <br><br><h1 style="color:white;font-family: 'Black Ops One', cursive; ">MUKESH</h1><h3 style="color:white;font-family: 'Black Ops One', cursive;">UI/UX Designer</h3></center>
+	
+	 </div><div class="col-sm-2"></div>
+</div>
+<div class="row" style="height:50%;width:100%;left:10%">
+<div class="col-sm-6" style="font-family: 'Black Ops One', cursive;font-family: 'Abril Fatface', cursive;font-family: 'Patua One', cursive; font-family: 'Passion One', cursive;font-family: 'Special Elite', cursive;">
+<h2>About <span class="badge badge-dark"> Me</span></h2><br>	
+    Hello! I'm Mukesh Babu, a passionate UI/UX Designer & Front-End Developer from Tamilnadu, India. </div><div class="col-sm-6"><center><br><a href="muki.html"><button class="btn btn-outline-primary" style="font-family: 'Black Ops One', cursive;font-family: 'Abril Fatface', cursive;font-family: 'Patua One', cursive;font-family: 'Passion One', cursive;font-family: 'Special Elite', cursive;font-family: 'Monoton', cursive;" >KNOW MORE <br><h3>ABOUT ME</h3></button></a><br></br><a href="contact.html"><button class="btn btn-outline-primary" style="font-family: 'Black Ops One', cursive;font-family: 'Abril Fatface', cursive;font-family: 'Patua One', cursive;font-family: 'Passion One', cursive;font-family: 'Special Elite', cursive;font-family: 'Monoton', cursive;">KNOW MORE <br><h3>CONTACT ME</h3></button></a></center></div>
+ </div></div>
+
+</div>
+</div>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "muki.html", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+
